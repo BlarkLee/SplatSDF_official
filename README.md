@@ -2,7 +2,7 @@
 This is the official implementation of **SplatSDF**.
 ### [Project page](https://blarklee.github.io/splatsdf/) | [Paper](https://arxiv.org/abs/2411.15468/)
 
-###Code coming soon!!!
+### Code coming soon!!!
 
 
 
