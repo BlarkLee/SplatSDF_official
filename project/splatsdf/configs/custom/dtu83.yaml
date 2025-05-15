@@ -1,0 +1,35 @@
+_parent_: project/splatsdf/configs/base.yaml
+max_iter: 256000
+checkpoint:
+    save_iter: 6400
+    
+data:
+    dataset_name: "dtu" 
+    readjust:
+        center:
+        - 0.0
+        - 0.0
+        - 0.0
+        scale: 1.0
+    root: //hdd2/DTU/DTU_neuralangelo/dtu_scan83
+    gaussian_path: //hdd2/DTU/DTU/scan83/
+    gaussian_ply_path: //home/blark/Desktop/2024/3dr/2d-gaussian-splatting/output/date/scan83/point_cloud/iteration_80000/point_cloud.ply
+    train:
+        image_size:
+        - 1200
+        - 1600
+    type: project.splatsdf.data_dtu
+    val:
+        image_size:
+        - 300
+        - 400
+model:
+    appear_embed:
+        enabled: false
+    object:
+        sdf:
+            encoding:
+                coarse2fine:
+                    init_active_level: 4
+            mlp:
+                inside_out: false    

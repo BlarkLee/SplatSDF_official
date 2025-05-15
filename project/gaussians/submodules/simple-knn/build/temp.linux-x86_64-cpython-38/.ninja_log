@@ -1,0 +1,19 @@
+# ninja log v5
+1	4763	1711661916750740912	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	906733df7d8577c6
+1	11383	1711661923366813164	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	d073d77faf2e61a9
+1	22302	1711661934286932420	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	a90088965d7176ea
+7	4781	1711667408043480076	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	6482bd052527240b
+6	6560	1711667409822904602	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	41c42794a1d4c718
+7	19287	1711667422550906290	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	144c8c385b98d278
+8	5175	1711669748189463250	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	11d8a6656eab7251
+8	9102	1711669752113502458	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	429856433d0dc724
+8	23003	1711669766013641362	/home/blark/Desktop/2024/3dr/planb/projects/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	b7a1409a8bca215d
+3	5140	1711672657240797992	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	39b68f6907543f88
+3	9146	1711672661244461983	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	e8efae67f2954ad5
+3	22956	1711672675051327237	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	1f886c4b9a099003
+5	4801	1713660677381693548	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	4d4ddfef58aeaa9c
+5	11317	1713660683889766940	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	b76d5167fa8fb4b7
+6	22230	1713660694805890217	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	d04179dc576634bc
+10	5167	1713673024810413840	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	39b68f6907543f88
+10	9148	1713673028794180086	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	e8efae67f2954ad5
+10	23024	1713673042673386648	/home/blark/Desktop/2024/3dr/planb/project/gaussians/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	1f886c4b9a099003

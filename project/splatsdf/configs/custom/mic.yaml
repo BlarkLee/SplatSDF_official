@@ -1,0 +1,28 @@
+_parent_: project/neuralangelo/configs/base.yaml
+data:
+    readjust:
+        center:
+        - 0.0
+        - 0.0
+        - 0.0
+        scale: 1.0
+    root: //hdd1/nerf/nerf_synthetic/mic #datasets/lego_ds2
+    train:
+        image_size:
+        - 800
+        - 800
+    type: project.neuralangelo.data
+    val:
+        image_size:
+        - 256 #300
+        - 256 #300
+model:
+    appear_embed:
+        enabled: false
+    object:
+        sdf:
+            encoding:
+                coarse2fine:
+                    init_active_level: 4
+            mlp:
+                inside_out: false

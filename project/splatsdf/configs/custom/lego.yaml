@@ -1,0 +1,35 @@
+_parent_: project/splatsdf/configs/base.yaml
+max_iter: 300000
+checkpoint:
+    save_iter: 10000 
+data:
+    readjust:
+        center:
+        - 0.0
+        - 0.0
+        - 0.0
+        scale: 1.0
+    root: //hdd1/nerf/nerf_synthetic/lego
+    gaussian_ply_path: //home/blark/Desktop/2024/3dr/planb/pretrained_gaussian/lego/point_cloud.ply
+    pt_rendered_depth_path: //home/blark/Desktop/2024/3dr/planb_ready/rendered_results/lego/
+    train:
+        image_size:
+        - 800
+        - 800
+    type: project.splatsdf.data
+    val:
+        image_size:
+        - 800
+        - 800
+model:
+    surface_fusion: false
+    gs_render_depth: true
+    appear_embed:
+        enabled: false
+    object:
+        sdf:
+            encoding:
+                coarse2fine:
+                    init_active_level: 4
+            mlp:
+                inside_out: false

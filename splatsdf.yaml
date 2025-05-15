@@ -1,0 +1,27 @@
+name: splatsdf
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  # general
+  - gpustat
+  - gdown
+  - cudatoolkit-dev
+  - cmake
+  # python general
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - ipython
+  - jupyterlab
+  - cython
+  - ninja
+  - diskcache
+  # pytorch
+  - pytorch=2.0.0
+  - torchvision
+  - pip:
+    - project/gaussians/submodules/diff-gaussian-rasterization
+    - project/gaussians/submodules/simple-knn
+    - -r requirements.txt
