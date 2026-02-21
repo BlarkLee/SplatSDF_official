@@ -30,7 +30,11 @@
     <img src='https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green'></a>
 </p>
 
-
+## 🏠 Overview
+<p align="center">
+    <img src="assets/lego_compare_5.png" alt="teaser" width="100%">
+</p>
+SplatSDF boosts Neural Implicit SDF via Gaussian Splatting with novel architecture-level fusion strategies. SplatSDF makes it easier to converge to complex geometry (like the holes in the red boxes), achieves greater geometric and photometric accuracy, and > 3 times faster convergence compared to the best baseline, Neuralangelo. (“CD” denotes Chamfer Distance).
 
 ## Installation
 ### Requirements
