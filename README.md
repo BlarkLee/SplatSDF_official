@@ -1,6 +1,36 @@
-# SplatSDF: Boosting Neural Implicit SDF via Gaussian Splatting Fusion
-This is the official implementation of **SplatSDF**.
-### [Project page](https://blarklee.github.io/splatsdf/) | [Paper](https://arxiv.org/abs/2411.15468/) | Primary Contact: [Runfa](https://blarklee.github.io/)
+<p align="center">
+<h1 align="center"<strong>SplatSDF: Boosting SDF-NeRF via Architecture-Level Fusion with Gaussian Splats</strong></h1>
+  <p align="center">
+    <a href='https://blarklee.github.io/' target='_blank'>Runfa Blark Li</a><sup>1</sup>
+    ·
+    <a href='' target='_blank'>Daniel George</a><sup>1</sup>
+    ·
+    <a href='' target='_blank'>Keito Suzuki</a><sup>1</sup>
+    ·
+    <a href='' target='_blank'>Bang Du</a><sup>1</sup>
+    ·
+    <a href='' target='_blank'>Ki Myung Brian Lee</a><sup>1</sup><br>
+    ·
+    <a href='' target='_blank'>Nikolay Atanasov</a><sup>1</sup> 
+    ·
+    <a href='' target='_blank'>Truong Nguyen</a><sup>1</sup>
+    <br>
+    UC San Diego
+    <br>
+    <strong>ICRA 2026</strong>
+    <br>
+  </p>
+</p>
+<p align="center">
+  <a href='https://arxiv.org/abs/2411.15468'>
+    <img src='https://img.shields.io/badge/arXiv-2503.19901-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
+  <a href='https://arxiv.org/abs/2411.15468'>
+    <img src='https://img.shields.io/badge/Paper-PDF-yellow?style=flat&logo=arXiv&logoColor=yellow'></a>
+  <a href='https://blarklee.github.io/splatsdf//'>
+    <img src='https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=green'></a>
+</p>
+
+
 
 ## Installation
 ### Requirements
